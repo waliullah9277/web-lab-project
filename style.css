@@ -1,0 +1,448 @@
+
+ body{
+    /* width: 1000px; 
+    margin: auto; */
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    background-color: rgb(240, 237, 237);
+} 
+
+li{
+    list-style: none;
+}
+
+nav{
+    background-color: aqua;
+}
+
+.menu{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.menu:hover{
+    color: white;
+    cursor: pointer;
+}
+
+/* banner css start here */
+.banner-container{
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(rgb(47, 173, 187), rgb(35, 212, 144));
+    border-radius: 10px;
+    box-shadow: 5px 5px 4px gray;
+    /* padding: 20px; */
+}
+
+.bn-image{
+    width: 500px;
+    height: 400px;
+}
+
+.banner-text{
+    margin-left: 80px;
+}
+
+.banner-title{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.banner-desc{
+    width: 400px;
+    font-size: 22px;
+    color: #f6f6f6f3;
+}
+
+.doctor-name{
+    color: rgb(4, 244, 248);
+}
+/* banner css end here */
+
+
+/* services css start here */
+
+.services-title{
+    font-size: 50px;
+    color: rgb(4, 244, 248);
+    font-weight: 500;
+}
+
+.services-desc{
+    width: 700px;
+    margin: auto;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+/* services css end here */
+
+
+/* all doctors css start here */
+
+.doctors-container{
+    padding: 25px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.doctors{
+    padding: 15px;
+    box-shadow: 5px 5px 8px gray;
+    border-radius: 10px;
+    width: 300px;
+    height: 460px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.doc-card-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+
+#doc-search{
+    width: 60%;
+    border: none;
+    padding: 12px;
+}
+.doc-btn{
+    border: none;
+    padding: 12px;
+    color: white;
+    background-color: rgb(71, 71, 240);
+    width: 100px;
+    font-weight: 500;
+}
+
+#noData{
+    display: none;
+}
+
+.nodata{
+    display: none;
+}
+
+#spinner{
+    display: none;
+}
+
+/* all doctors css end here */
+
+/* review css start here */
+
+.review-card{
+    width: 300px;
+    height: 350px;
+    box-shadow: 5px 5px 6px gray;
+    padding: 15px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.review-card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+
+/* review css end here */
+
+/* footer section start here */
+
+footer{
+    margin-top: 40px;
+    padding: 50px;
+    background: linear-gradient(rgb(12, 241, 241), rgb(23, 149, 149));
+}
+
+.icon{
+    width: 50px;
+ } 
+
+
+/* footer section end here */
+
+
+/* doctor details page css start here */
+
+.doc-details-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 30px;
+    width: 55%;
+    margin: auto;
+}
+
+.doctor-image img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+
+
+/* doctor details page css end here */
+
+
+/* user details css start here */
+
+.user-details-container{
+    height: 80vh;
+    width: 60%;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.all-user{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+}
+
+.user-details-image img{ 
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+/* user details css end here */
+
+
+/* all appoinment css start here */
+
+.all-appoinment-container{
+    width: 90%;
+    margin: auto;
+    height: 80vh;
+}
+
+.doctor{
+    width: 350px;
+    height:400px;
+    box-shadow: 4px 4px 8px gray;
+    text-align: center;
+    background-color:gray;
+    color: white;
+    border-radius:10px;
+}
+.symtom{
+    width: 50%;
+    padding: 20px;
+    margin: 20px;
+    border: none;
+}
+
+/* all appoinment css end here */
+
+
+  
+  .login-container {
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Clean edges */
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  form input {
+    font-size: 16px;
+  }
+  
+  .form-control {
+    border-radius: 5px;
+  }
+  
+  img {
+    max-height: 500px;
+  }
+  
+
+ /* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* About Us Section */
+  .about-us {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #f9f9f9;
+  }
+  
+  .about-content {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .about-content h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.8;
+  }
+  
+  .about-content ul {
+    margin-top: 10px;
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .about-content li {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  .about-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .about-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .about-us {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .about-content {
+      padding-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+
+
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .contact-description {
+    background-color: #ffffff;
+    padding: 40px 0;
+    margin-top: 20px;
+  }
+  
+  .contact-description h1 {
+    font-size: 40px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .contact-description p {
+    font-size: 18px; 
+    color: #555;
+    line-height: 1.6;
+    text-align: center;
+  }
+  
+  .contact-form {
+    background-color: #ffffff;
+    padding: 40px;
+    margin-top: 20px;
+    width: 50%; 
+    margin-left: auto; 
+    margin-right: auto;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+  }
+  
+  .contact-form h2 {
+    font-size: 30px; 
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .contact-form label {
+    font-size: 16px; 
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .contact-form .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form .form-control:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .contact-form .btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px; 
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-form .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  
+  
