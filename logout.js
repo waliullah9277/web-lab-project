@@ -1,6 +1,6 @@
 const handleLogOut = ()=>{
     const token = localStorage.getItem('token');
-    fetch(`https://smart-care.onrender.com/patient/logout/${token}`,{
+    fetch("https://testing-8az5.onrender.com/patient/logout",{
         method: 'POST',
         headers: {
             Authorization: `Token ${token}`,

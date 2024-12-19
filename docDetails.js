@@ -28,7 +28,7 @@ displayDocDetails = (docDetails) => {
             ${docDetails.specialization.map((item) => {
               return `<button class="btn btn-sm btn-secondary">${item}</button>`;
             })}
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, odio.</p>
+            <p>Our hospital is home to a team of highly skilled specialists dedicated to providing exceptional care. Dermatologists treat skin, hair, and nail conditions, while Pediatricians focus on the health of infants, children, and teenagers. Orthopedists handle bone and joint-related issues, and Neurologists specialize in disorders of the brain and nervous system. Physiatrists aid in physical rehabilitation to restore mobility, and Cardiologists focus on heart health and cardiovascular diseases. Our Internal Medicine Specialists provide comprehensive care for adults, managing chronic illnesses, and promoting preventive health. Lastly, our General Surgeons perform a variety of surgical procedures with precision and care, ensuring the best outcomes for our patients.</p>
             <h5>Fees: ${docDetails.fee} BDT</h5>
             
             <button type="button" class="btn-sm btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -98,12 +98,8 @@ const handleAppointment = () => {
     .then((res) => res.json())
     .then((data) => {
       window.location.href = "allAppoinment.html";
-      // handlePdf();
-      // console.log(data);
     });
 };
-
-
 
 const loadPatientId = () => {
   const user_id = localStorage.getItem("user_id");
@@ -114,7 +110,5 @@ const loadPatientId = () => {
     });
 };
 
-// loadAvailableTime();
 getparams();
-
 loadPatientId();
